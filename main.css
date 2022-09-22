@@ -193,3 +193,24 @@ footer {
 .footer__links a {
   margin-bottom: 15px;  
 }
+
+@keyframes rotation {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.about__sun-image {
+    animation: rotation 10s linear infinite;
+    position: absolute;
+}
+
+header {
+    position: sticky;
+    top: 0px;
+    background-color: #fff;
+    z-index: 1;
+}
