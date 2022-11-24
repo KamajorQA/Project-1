@@ -53,6 +53,7 @@ button {
   align-items: center;
   padding-top: 115px;
   padding-bottom: 115px;
+  position: relative;
 }
 
 .about h1 {
@@ -374,6 +375,14 @@ header {
 .promo__button-wrap button i {
   margin-left: 5px;
   font-size: 15px;
+}
+
+.orb-canvas {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
 }
 
 /* Медиа-запрос для планшетов */
